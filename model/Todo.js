@@ -11,7 +11,7 @@ xx.model.MyThing = Backbone.Model.extend({
 
 // And your collection like this.
 xx.model.MyThings = Backbone.Collection.extend({
-  model: MyThing
+  model: xx.model.MyThing
 });
 
 // Like for Model, your can use Singleton for your Collections.

@@ -1,3 +1,8 @@
+// The router is a Singleton.
+// It is responsible of displaying your page given an URL.
+//
+// Some views in the application are always rendered.
+// This is the AppViews.
 xx.Router = Backbone.Router.extend({
 
   routes: {
@@ -7,30 +12,31 @@ xx.Router = Backbone.Router.extend({
   },
 
   initialize: function(){
-    this.createSubView();
-    this.renderSubView();
+    this.createAppView();
+    this.renderAppView();
   },
 
   // instantiate views that will be used in the whole application.
-  createSubView: function(){
-    dc.view.todo = new dc.view.Todo();
+  createAppView: function(){
+    xx.view.todo = new xx.view.TodoView();
     // ...
   },
 
-  // insert the application views inside the DOM.
-  renderSubView: function(){
-    $('body').append(dc.view.todo.render().el);
+  // insert into the DOM, views that need to be rendered in the whole
+  // application.
+  renderAppView: function(){
+    $('body').append(xx.view.todo.render().el);
     // ...
   },
 
   // Index page
   home: function() {
-    // ...
+    console.log("Welcome home!");
   },
 
   // Search page
   search: function(query, page) {
-    // ...
+    console.log("You search", query, page);
   }
 
 });
