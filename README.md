@@ -236,3 +236,15 @@ If what you want to do is not in [underscore](http://documentcloud.github.com/un
 ### Add tests
 
 TODO
+
+
+### Build your project
+
+Never think of putting in production your application with all these
+small files.
+
+You need to concatenate, minify and md5 your CSS and Javascript files.
+
+Then you will serve them with GZip compression.
+
+Look at the [HTML5 Build Script](http://html5boilerplate.com/docs/Build-script/)
