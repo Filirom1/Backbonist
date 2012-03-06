@@ -248,3 +248,9 @@ You need to concatenate, minify and md5 your CSS and Javascript files.
 Then you will serve them with GZip compression.
 
 Look at the [HTML5 BoilerPlate Build Script](http://html5boilerplate.com/docs/Build-script/)
+
+### License
+
+Code contributed to this project is provided under the MIT license.  
+Some components of the project are subject to their own 
+licenses as indicated (see /vendor directory).
