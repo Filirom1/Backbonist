@@ -15,7 +15,7 @@ improve the learning curve of creating Single Page Web Application.
 Nothing is magic, everything is close to javascript, HTML and the DOM,
 but **you will understand what you do**.
 
-Let starts now
+Let's start now
 
 ### First read the sourcess, and the documentation
 
