@@ -1,8 +1,7 @@
 // The router is a Singleton.
 // It is responsible of displaying your page given an URL.
 //
-// Some views in the application are always rendered.
-// This is the AppViews.
+// Some views in the application are always rendered: the AppViews.
 xx.Router = Backbone.Router.extend({
 
   routes: {
