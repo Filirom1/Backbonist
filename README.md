@@ -17,7 +17,7 @@ but **you will understand what you do**.
 
 Let's start now
 
-### First read the sourcess, and the documentation
+### First read the sourcess, and the documentation.
 
 Before starting, I suggest you to read the [Backbone Documentation](http://documentcloud.github.com/backbone/) and the [jQuery doc](http://docs.jquery.com/How_jQuery_Works) too.
 
@@ -37,14 +37,14 @@ To create your app, just clone this repo:
 
     git clone https://Filirom1@github.com/Filirom1/Backbonist.git
 
-Every source files are commented. Feel free to remove every comment and
-code you don't want. Backbonist is here to help, not to bother you with
+Every source files are commented. Feel free to remove every comments and
+codes you don't want. Backbonist is here to help, not to bother you with
 unwanted features. If later you miss something, github will be there to
 show you the original file.
 
 ### Choose your namespace
 
-In Backbonist, there is no dependency systems like [RequireJs](http://requireJs.org) or [browserify](https://github.com/substack/node-browserify). It's simpler this way.
+In Backbonist, there is no dependency system like [RequireJs](http://requireJs.org) or [browserify](https://github.com/substack/node-browserify). It's simpler this way.
 
 If you want to build a big application, you need simple
 conventions. The first convention to follow is the namespace.
