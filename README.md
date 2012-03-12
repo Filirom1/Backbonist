@@ -103,7 +103,7 @@ using the JST namespace :
 
 
 Here is a JST compiler that works with the following templates system
-: jQuery Tmpl, Handlebars, Underscore or pure string : <https://github.com/Filirom1/universal-jst>
+: jQuery Tmpl, Handlebars, Underscore or pure string : <https://github.com/wookiehangover/handlebars-jst>
 
 
 [Read more, read the sources](https://github.com/Backbonist/Backbonist/tree/master/template)
