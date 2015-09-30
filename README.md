@@ -195,7 +195,7 @@ Moreover, thanks to the namespace you can identify easily every singelton instan
 
 ### Create your Models and Collections
 
-It's time to make your aplication dynamic, to call some remote JSON
+It's time to make your application dynamic, to call some remote JSON
 files then show the result into a custom view.
 
 Like you have objects and arrays in JSON, you will have Models and Collections in Backbone.
