@@ -21,7 +21,7 @@ Let's start now
 
 Before starting, I suggest you to read the [Backbone Documentation](http://documentcloud.github.com/backbone/) and the [jQuery doc](http://docs.jquery.com/How_jQuery_Works) too.
 
-The more you are confortable with jQuery and Backbone, the more
+The more you are comfortable with jQuery and Backbone, the more
 Backbonist will become evident for you.
 
 Backbonist is just a set of very small conventions, to organize
